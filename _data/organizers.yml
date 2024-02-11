@@ -1,0 +1,24 @@
+- name: Rishabh Agarwal
+  image: images/organizers/rishabh.jpg
+  title: Google Research, Brain Team and MILA
+  url: https://agarwl.github.io/
+- name: Aviral Kumar
+  image: images/organizers/aviral.jpg
+  title: UC Berkeley
+  url: https://aviralkumar2907.github.io
+- name: Wenxuan Zhou
+  image: https://wenxuan-zhou.github.io/images/Wenxuan.JPG
+  url: https://wenxuan-zhou.github.io/
+  title: Carnegie Mellon University
+- name: Aravind Rajeswaran
+  image: https://aravindr93.github.io/assets/aravind_portland.jpg
+  url: https://aravindr93.github.io/
+  title: Meta AI
+- name: George Tucker
+  image: images/organizers/george.JPG
+  url: https://sites.google.com/view/gjt
+  title: Google Research, Brain Team
+- name: Doina Precup
+  image: images/organizers/doina.jpg
+  url: https://www.cs.mcgill.ca/~dprecup
+  title: DeepMind and McGill University

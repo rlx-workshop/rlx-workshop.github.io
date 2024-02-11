@@ -1,0 +1,120 @@
+---
+layout: default
+---
+
+<figure>
+    <center><img src="https://offline-rl.github.io/assets/OFFLINE_RL.gif" style="width:65%"; /></center>
+    <figcaption style='text-align: center'><small>Source: <a href="https://ai.googleblog.com/2020/04/an-optimistic-perspective-on-offline.html">Google AI Blog </a></small></figcaption>
+</figure>
+
+<div class="row">
+
+
+
+<p>
+	Learning actionable priors from offline datasets is one of the key problems in AI that has received renewed interest recently with the success of offline RL and has deep connections to seemingly disjoint threads of research such as learning from offline preferences, language, cross-embodiment, video or synthetic datasets; learning safety or social constraints from offline data; learning foundational models; representation learning from static datasets; goal-conditioned behavior learning; offline policy selection; and  RL with demonstration data. We propose a workshop to study these RL+X data algorithms, theoretically and practically, and investigate their connections spanning fields. These algorithms reflect a much more natural setting than considered by an RL agent learning from scratch by investigating ways to distill the relevant information from offline datasets. The workshop aims to bring together researchers working on language modeling, RL in healthcare, robotics, and any areas that are actively leveraging X datasets to generate downstream actionable abilities.
+</p>
+
+<!-- <p>
+<b> What's new in this edition? </b> While offline RL focuses on learning <em> solely </em> from fixed datasets, one of the main learning points from the <a href=https://offline-rl-neurips.github.io/2021> previous edition of offline RL workshop </a> was that large-scale RL applications typically want to use offline RL as part of a bigger system as opposed to being the end-goal in itself. Thus, we propose to shift the focus from algorithm design and offline RL applications to how <em> offline RL can be a launchpad </em>, i.e., a tool or a starting point, for solving challenges in sequential decision-making such as exploration, generalization, transfer, safety, and adaptation. Particularly, we are interested in studying and discussing methods for learning expressive models, policies, skills and value functions from data that can help us make progress towards efficiently tackling these challenges, which are otherwise often intractable. 
+</p> -->
+
+<p>
+<b> Topics to be discussed </b>. To this end, we have invited new speakers researching ways to use making offline data useful in various ways for RL, as well as speakers whose focus areas present new and interesting decision-making challenges which can benefit from using offline RL as a tool. We are also organizing a panel discussion,  focused on understanding the key foundational research challenges in learning to bootstrap from offline datasets.  We will encourage discussions and contributions around (but not limited to) the following topics that are important in the context of utilizing RL+X datasets:
+</p>
+<ul>
+<li> Learning from offline preferences, language, cross-embodiment, video or synthetic datasets </li>
+<li> Learning representations, skills, safety or social constraints from offline data </li>
+<li> Training foundational models for efficient adaptation/finetuning</li>
+<li> Representation learning from static datasets </li>
+<li> Offline goal-conditioned behavior learning; </li>
+<li> Offline policy selection</li>
+<li> Data collection for efficient downstream RL finetuning </li>
+<li> RL with demonstration data </li>
+</ul>
+</div>
+
+<!-- <p>
+Submission site: <a href="">  </a>
+The submission deadline is October 2, 2022 (Anywhere on Earth) <strike> September 30, 2022 </strike> . Please refer to the <a href="https://offline-rl-neurips.github.io/2022/submit.html"> submission </a> page for more details.	
+</p> -->
+	
+<!-- <div id="PC" class="row">
+<h3>Program Committee</h3>
+<div class="break"></div>
+	<ul style="width:25%; float:left; display: inline; ">
+		<li>Adam R Villaflor </li>
+		<li>Alex Irpan </li>
+		<li>Alex Lewandowski </li>
+		<li>Anurag Ajay </li>
+		<li>Ben London </li>
+		<li>Biwei Huang </li>
+		<li>Bo Dai </li>
+		<li>Brandon Trabucco </li>
+		<li>Canmanie T. Ponnambalam </li>
+		<li>Chaochao Lu </li>
+		<li>Cosmin Paduraru </li>
+		<li>Daniel Seita </li>
+		<li>David Krueger </li>
+		<li>Dibya Ghosh </li>
+		<li>Francesco Faccio </li>
+		<li>Hadi Nekoei </li>
+		<li>Homer R Walke </li>
+
+	 </ul>
+
+	<ul style="width:25%; float:center; display: inline; ">
+		<li>Ilya Kostrikov </li>
+		<li>Jacob Buckman </li>
+		<li>Jiawei Huang </li>
+		<li>Joey Hong </li>
+		<li>Karush Suri </li>
+		<li>Kevin Lu </li>
+		<li>Konrad Zolna </li>
+		<li>Ksenia Konyushova </li>
+		<li>Luckeciano C Melo </li>
+		<li>Masatoshi Uehara </li>
+		<li>Ming Yin </li>
+		<li>Oleh Rybkin </li>
+		<li>Qiang He </li>
+		<li>Rafael Rafailov </li>
+		<li>Rahul Siripurapu </li>
+		<li>Romina Abachi </li>
+		<li>Ruosong Wang </li>
+	</ul>
+
+	<ul style="width:25%; float:right; display: inline;">
+		<li>Kamyar Ghasemipour </li>
+		<li>Shangtong Zhang </li>
+		<li>Stephen Tian </li>
+		<li>Taylor W Killian </li>
+		<li>Tengyang Xie </li>
+		<li>Thanh Nguyen-Tang </li>
+		<li>Thomas L Paine </li>
+		<li>Tianhe Yu </li>
+		<li>Tianyuan Jin </li>
+		<li>Yanan Wang </li>
+		<li>Yevgen Chebotar </li>
+		<li>Yi Su </li>
+		<li>Yijie Guo </li>
+		<li>Yue Wu </li>
+		<li>Yuta Saito </li>
+		<li>Yuwei Fu </li>
+	</ul>
+</div>
+ -->
+<div id="organizers" class="row">
+<h2 style="float:left;">Organizers</h2>
+<div class="break"></div>
+<div style="text-align: left;">
+{%- for person in site.data.organizers -%}
+<div class="person">
+  <img src="{{ person.image }}" height="170px" /><div style="height:12px;"></div>
+   <a href="{{ person.url | relative_url }}">{{ person.name }}</a> <div style="height:4px;"></div>
+   <span>{{ person.title | replace: '&', '<div style="height:4px;"></div>' }}</span>
+</div>
+{%- endfor -%}
+</div>
+</div>
+<p> To contact the organizers, please send an email to <a href="mailto:rlx-workshop@gmail.com">rlx-workshop@gmail.com</a>. <p>
+
