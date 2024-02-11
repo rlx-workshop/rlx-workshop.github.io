@@ -1,24 +1,40 @@
-- name: Rishabh Agarwal
-  image: images/organizers/rishabh.jpg
-  title: Google Research, Brain Team and MILA
-  url: https://agarwl.github.io/
-- name: Aviral Kumar
-  image: images/organizers/aviral.jpg
+- name: Harshit Sikchi
+  image: https://hari-sikchi.github.io/images_harshit/profile.png
+  title: UT Austin
+  url: https://hari-sikchi.github.io/
+- name: Laixi Shi
+  image: https://laixishi.github.io/laixi_photo/summary/profile4.jpeg
+  url: https://laixishi.github.io/
+  title: Caltech
+- name: Haoran Xu
+  image: https://ryanxhr.github.io/assets/xhr.jpg
+  title: UT Austin
+  url: https://ryanxhr.github.io/
+- name: Ahmed Touati
+  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=D4LT5xAAAAAJ&citpid=3
+  url: https://scholar.google.com/citations?user=D4LT5xAAAAAJ&hl=en
+  title: FAIR, Meta AI
+- name: Andi Peng
+  image: https://andipeng.com/authors/admin/avatar_hue5e38479884d14c33b13ea54f74e4bd6_40613_250x250_fill_q90_lanczos_center.jpg
+  url: https://andipeng.com/
+  title: MIT
+- name: Dibya Ghosh
+  image: https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=znnl0kwAAAAJ&citpid=1
+  url: https://dibyaghosh.com/
   title: UC Berkeley
-  url: https://aviralkumar2907.github.io
-- name: Wenxuan Zhou
-  image: https://wenxuan-zhou.github.io/images/Wenxuan.JPG
-  url: https://wenxuan-zhou.github.io/
+- name: Gokul Swamy
+  image: https://gokul.dev/assets/img/profile.png
+  url: https://gokul.dev/
   title: Carnegie Mellon University
-- name: Aravind Rajeswaran
-  image: https://aravindr93.github.io/assets/aravind_portland.jpg
-  url: https://aravindr93.github.io/
-  title: Meta AI
-- name: George Tucker
-  image: images/organizers/george.JPG
-  url: https://sites.google.com/view/gjt
-  title: Google Research, Brain Team
-- name: Doina Precup
-  image: images/organizers/doina.jpg
-  url: https://www.cs.mcgill.ca/~dprecup
-  title: DeepMind and McGill University
+- name: Sumedh Sontakke
+  image: https://sumedh7.github.io/images/mug.png
+  url: https://sumedh7.github.io/
+  title: University of Southern California 
+- name: Zuxin Liu
+  image: https://zuxin.me/images/profile2.png
+  url: https://zuxin.me/
+  title: Salesforce AI Research 
+- name: Rafael Rafailov
+  image: https://rmrafailov.github.io/files/rafael.png
+  url: https://rmrafailov.github.io/
+  title: Stanford
